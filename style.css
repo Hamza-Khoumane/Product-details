@@ -2,7 +2,7 @@
   padding: 10rem;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 4rem;
 }
 
@@ -29,10 +29,6 @@
   display: flex;
   justify-content: space-between;
   gap: 1rem;
-}
-
-.poduct__image--main {
-  height: 60%;
 }
 
 .product__image--sub__img {
