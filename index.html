@@ -13,108 +13,103 @@
     <title>Product Details</title>
   </head>
   <body>
-    <section class="product">
-      <div class="product__image">
-        <figure class="poduct__image--main">
-          <img loading="lazy" src="images/8.1.jpg" alt="lo" />
+    <main class="product">
+      <section class="product__imgs">
+        <figure class="product__imgs--display">
+          <img loading="lazy" src="images/8.1.jpg" alt="Shirt" />
         </figure>
 
-        <div class="product__image--sub">
-          <figure class="product__image--sub__img">
-            <img src="images/8.2.jpg" alt="aaa" loading="lazy" />
-          </figure>
+        <!-- div>figure*3.product__imgs--others>img[alt="Shirt"][loading="lazy"][src="images/8.$@2.jpg"] -->
 
-          <figure class="product__image--sub__img">
-            <img src="images/8.3.jpg" alt="aaa" loading="lazy" />
+        <div>
+          <figure class="product__imgs--others">
+            <img src="images/8.2.jpg" alt="Shirt" loading="lazy" />
           </figure>
-
-          <figure class="product__image--sub__img">
-            <img src="images/8.4.jpg" alt="aaa" loading="lazy" />
+          <figure class="product__imgs--others">
+            <img src="images/8.3.jpg" alt="Shirt" loading="lazy" />
+          </figure>
+          <figure class="product__imgs--others">
+            <img src="images/8.4.jpg" alt="Shirt" loading="lazy" />
           </figure>
         </div>
-      </div>
+      </section>
 
-      <div class="product__content">
-        <h3 class="product__content--title">Men's Shirt</h3>
-
-        <div class="product__content--rating">
+      <section class="product__details">
+        <h2 class="product__details--name">Men's Shirt</h2>
+        <div class="product__details--rating">
           <div>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+            ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+            ><i class="fa-solid fa-star"></i>
           </div>
 
           <h6>35 Ratings</h6>
         </div>
 
-        <p class="product__content--para">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate
-          inventore cum aspernatur illum ullam ab voluptatum at rerum ut sequi?
+        <p class="product__details--desc">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt
+          quidem provident eveniet laboriosam, non, repellendus ut rerum tempora
+          veritatis fugit quibusdam voluptates ullam tenetur autem?
         </p>
 
-        <div class="product__content--quantity">
-          <h5 class="product__content--quantity__title">Quantity</h5>
-          <span>$29.00</span>
-        </div>
-
-        <div class="product__content--vat">
-          <div>
-            <i class="fa-solid fa-plus"></i>
-            <p>1</p>
-            <i class="fa-solid fa-minus"></i>
+        <div>
+          <div class="product__details--quantity">
+            <h5>Quantity</h5>
+            <p>
+              <span>-</span>
+              <span>1</span>
+              <span>+</span>
+            </p>
           </div>
 
-          <span> 12% VAT Added</span>
-        </div>
-
-        <input
-          type="submit"
-          class="product__content--input"
-          value="Add To Cart"
-        />
-
-        <div class="product__content--details">
-          <h5 class="product__content--details__title">Product Details</h5>
-
-          <p>
-            <span> Size</span>
-            <span>Small,Medium,Large</span>
-          </p>
-
-          <p>
-            <span> Color</span>
-            <span>White,Blue,Yellow</span>
-          </p>
-
-          <p>
-            <span> Brand</span>
-            <span>EL,ZARA,HK</span>
-          </p>
-        </div>
-
-        <div class="product__content--size">
-          <h5 class="product__content--size__title">Select Size</h5>
-
-          <div class="product__content--size__option">
-            <span>Small</span>
-            <span>Medium</span>
-            <span>Large</span>
+          <div class="product__details--price">
+            <h3>$29.00</h3>
+            <p>12% VAT Added</p>
           </div>
         </div>
 
-        <div class="product__content--color">
-          <h5 class="product__content--color__title">Select Color</h5>
+        <a href="#" class="product__details--cart">Add to cart</a>
 
-          <div class="product__content--color_option">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+        <div class="product__details--container">
+          <h4 class="product__details--container__title">Product Details</h4>
+
+          <div class="product__details--container__size">
+            <h5>Size</h5>
+            <h5>Small, Medium, Large</h5>
+          </div>
+
+          <div class="product__details--container__color">
+            <h5>Color</h5>
+            <h5>White, Blue, Pink</h5>
+          </div>
+
+          <div class="product__details--container__brand">
+            <h5>Brand</h5>
+            <h5>EL Merch</h5>
           </div>
         </div>
-      </div>
-    </section>
+
+        <div class="product__details--size">
+          <h4 class="product__details--size__title">Select Size</h4>
+
+          <ul>
+            <li>Small</li>
+            <li>Medium</li>
+            <li>Large</li>
+          </ul>
+        </div>
+
+        <div class="product__details--color">
+          <h4 class="product__details--color__title">Select Color</h4>
+
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
