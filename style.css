@@ -1,0 +1,156 @@
+.product {
+  padding: 10rem;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.product__image {
+  flex-basis: 60%;
+}
+
+.product__image,
+.product__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.product__image {
+  gap: 2rem;
+}
+
+.poduct__image--main img,
+.product__image--sub__img img {
+  border-radius: 1rem;
+}
+
+.product__image--sub {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.poduct__image--main {
+  height: 60%;
+}
+
+.product__image--sub__img {
+  width: 100%;
+  height: 80%;
+}
+
+.product__content {
+  flex-basis: 40%;
+  gap: 2rem;
+}
+.product__content--rating {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.product__content--rating > div > i {
+  color: orange;
+}
+
+.product__content--quantity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 2rem;
+}
+
+.product__content--quantity span {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.product__content--vat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product__content--vat > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.3rem;
+
+  border: 1px solid gainsboro;
+  padding: 1rem 2rem;
+}
+
+.product__content--vat > span {
+  font-size: 1.3rem;
+}
+
+input[type="submit"] {
+  background-color: blue;
+  color: white;
+}
+
+.product__content--details,
+.product__content--size,
+.product__content--color {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.product__content--details p {
+  border-bottom: 1px solid lightgray;
+}
+
+.product__content--details p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-bottom: 1rem;
+}
+
+.product__content--details p > span {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.product__content--size__option {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.product__content--size__option span {
+  border: 1px solid lightgray;
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+}
+
+.product__content--color_option {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.product__content--color_option div {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 0.8rem;
+}
+
+.product__content--color_option div:nth-child(1) {
+  background-color: blue;
+}
+
+.product__content--color_option div:nth-child(2) {
+  background-color: red;
+}
+.product__content--color_option div:nth-child(3) {
+  background-color: green;
+}
+.product__content--color_option div:nth-child(4) {
+  background-color: aqua;
+}
